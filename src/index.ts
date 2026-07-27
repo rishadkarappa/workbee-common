@@ -2,6 +2,9 @@
 export * from './enums/UserRole.js'
 // types
 export * from './types/IJwtPayload.js'
+export * from './types/IUser.js'
+export * from './types/IApiResponse.js'
+
 // errors
 export * from './errors/app-error.js'
 
