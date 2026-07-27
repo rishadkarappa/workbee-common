@@ -5,5 +5,7 @@ export * from './types/IJwtPayload.js'
 // errors
 export * from './errors/app-error.js'
 
+export * from './contracts/NotificationDTO.js'
+
 // express request augmentation — side-effect import, must stay
 import './types/express.js';
