@@ -1,5 +1,7 @@
 // enums
 export * from './enums/UserRole.js'
+export * from './enums/HttpStatusCode.js'
+
 // types
 export * from './types/IJwtPayload.js'
 export * from './types/IUser.js'
