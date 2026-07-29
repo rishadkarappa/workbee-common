@@ -1,6 +1,6 @@
 import winston from "winston";
 
-const logger = winston.createLogger({
+export const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || "info",
 
   defaultMeta: {
@@ -23,5 +23,3 @@ const logger = winston.createLogger({
     }),
   ],
 });
-
-export default logger;
