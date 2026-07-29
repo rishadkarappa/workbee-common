@@ -1,7 +1,7 @@
 {
-  "name": "@workbee/common",
+  "name": "workbee-common",
   "version": "1.0.0",
-  "private": true,
+  "description": "common module for WorkBee web application",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
